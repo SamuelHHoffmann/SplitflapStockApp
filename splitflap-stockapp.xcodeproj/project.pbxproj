@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90909C4F264616350062379C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90909C4E264616350062379C /* AppDelegate.swift */; };
+		90909C51264616350062379C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90909C50264616350062379C /* SceneDelegate.swift */; };
+		90909C53264616350062379C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90909C52264616350062379C /* ViewController.swift */; };
+		90909C56264616350062379C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90909C54264616350062379C /* Main.storyboard */; };
+		90909C58264616370062379C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90909C57264616370062379C /* Assets.xcassets */; };
+		90909C5B264616370062379C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90909C59264616370062379C /* LaunchScreen.storyboard */; };
+		90909C66264616370062379C /* splitflap_stockappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90909C65264616370062379C /* splitflap_stockappTests.swift */; };
+		90909C71264616370062379C /* splitflap_stockappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90909C70264616370062379C /* splitflap_stockappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90909C62264616370062379C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90909C43264616350062379C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90909C4A264616350062379C;
+			remoteInfo = "splitflap-stockapp";
+		};
+		90909C6D264616370062379C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90909C43264616350062379C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90909C4A264616350062379C;
+			remoteInfo = "splitflap-stockapp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90909C4B264616350062379C /* splitflap-stockapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "splitflap-stockapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90909C4E264616350062379C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90909C50264616350062379C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90909C52264616350062379C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90909C55264616350062379C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90909C57264616370062379C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90909C5A264616370062379C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90909C5C264616370062379C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90909C61264616370062379C /* splitflap-stockappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "splitflap-stockappTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90909C65264616370062379C /* splitflap_stockappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splitflap_stockappTests.swift; sourceTree = "<group>"; };
+		90909C67264616370062379C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90909C6C264616370062379C /* splitflap-stockappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "splitflap-stockappUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90909C70264616370062379C /* splitflap_stockappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splitflap_stockappUITests.swift; sourceTree = "<group>"; };
+		90909C72264616370062379C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90909C48264616350062379C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90909C5E264616370062379C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90909C69264616370062379C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90909C42264616350062379C = {
+			isa = PBXGroup;
+			children = (
+				90909C4D264616350062379C /* splitflap-stockapp */,
+				90909C64264616370062379C /* splitflap-stockappTests */,
+				90909C6F264616370062379C /* splitflap-stockappUITests */,
+				90909C4C264616350062379C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90909C4C264616350062379C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90909C4B264616350062379C /* splitflap-stockapp.app */,
+				90909C61264616370062379C /* splitflap-stockappTests.xctest */,
+				90909C6C264616370062379C /* splitflap-stockappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90909C4D264616350062379C /* splitflap-stockapp */ = {
+			isa = PBXGroup;
+			children = (
+				90909C4E264616350062379C /* AppDelegate.swift */,
+				90909C50264616350062379C /* SceneDelegate.swift */,
+				90909C52264616350062379C /* ViewController.swift */,
+				90909C54264616350062379C /* Main.storyboard */,
+				90909C57264616370062379C /* Assets.xcassets */,
+				90909C59264616370062379C /* LaunchScreen.storyboard */,
+				90909C5C264616370062379C /* Info.plist */,
+			);
+			path = "splitflap-stockapp";
+			sourceTree = "<group>";
+		};
+		90909C64264616370062379C /* splitflap-stockappTests */ = {
+			isa = PBXGroup;
+			children = (
+				90909C65264616370062379C /* splitflap_stockappTests.swift */,
+				90909C67264616370062379C /* Info.plist */,
+			);
+			path = "splitflap-stockappTests";
+			sourceTree = "<group>";
+		};
+		90909C6F264616370062379C /* splitflap-stockappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90909C70264616370062379C /* splitflap_stockappUITests.swift */,
+				90909C72264616370062379C /* Info.plist */,
+			);
+			path = "splitflap-stockappUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90909C4A264616350062379C /* splitflap-stockapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90909C75264616370062379C /* Build configuration list for PBXNativeTarget "splitflap-stockapp" */;
+			buildPhases = (
+				90909C47264616350062379C /* Sources */,
+				90909C48264616350062379C /* Frameworks */,
+				90909C49264616350062379C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "splitflap-stockapp";
+			productName = "splitflap-stockapp";
+			productReference = 90909C4B264616350062379C /* splitflap-stockapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90909C60264616370062379C /* splitflap-stockappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90909C78264616370062379C /* Build configuration list for PBXNativeTarget "splitflap-stockappTests" */;
+			buildPhases = (
+				90909C5D264616370062379C /* Sources */,
+				90909C5E264616370062379C /* Frameworks */,
+				90909C5F264616370062379C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90909C63264616370062379C /* PBXTargetDependency */,
+			);
+			name = "splitflap-stockappTests";
+			productName = "splitflap-stockappTests";
+			productReference = 90909C61264616370062379C /* splitflap-stockappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90909C6B264616370062379C /* splitflap-stockappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90909C7B264616370062379C /* Build configuration list for PBXNativeTarget "splitflap-stockappUITests" */;
+			buildPhases = (
+				90909C68264616370062379C /* Sources */,
+				90909C69264616370062379C /* Frameworks */,
+				90909C6A264616370062379C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90909C6E264616370062379C /* PBXTargetDependency */,
+			);
+			name = "splitflap-stockappUITests";
+			productName = "splitflap-stockappUITests";
+			productReference = 90909C6C264616370062379C /* splitflap-stockappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90909C43264616350062379C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Samuel Hoffmann";
+				TargetAttributes = {
+					90909C4A264616350062379C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					90909C60264616370062379C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 90909C4A264616350062379C;
+					};
+					90909C6B264616370062379C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 90909C4A264616350062379C;
+					};
+				};
+			};
+			buildConfigurationList = 90909C46264616350062379C /* Build configuration list for PBXProject "splitflap-stockapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90909C42264616350062379C;
+			productRefGroup = 90909C4C264616350062379C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90909C4A264616350062379C /* splitflap-stockapp */,
+				90909C60264616370062379C /* splitflap-stockappTests */,
+				90909C6B264616370062379C /* splitflap-stockappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90909C49264616350062379C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90909C5B264616370062379C /* LaunchScreen.storyboard in Resources */,
+				90909C58264616370062379C /* Assets.xcassets in Resources */,
+				90909C56264616350062379C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90909C5F264616370062379C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90909C6A264616370062379C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90909C47264616350062379C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90909C53264616350062379C /* ViewController.swift in Sources */,
+				90909C4F264616350062379C /* AppDelegate.swift in Sources */,
+				90909C51264616350062379C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90909C5D264616370062379C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90909C66264616370062379C /* splitflap_stockappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90909C68264616370062379C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90909C71264616370062379C /* splitflap_stockappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90909C63264616370062379C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90909C4A264616350062379C /* splitflap-stockapp */;
+			targetProxy = 90909C62264616370062379C /* PBXContainerItemProxy */;
+		};
+		90909C6E264616370062379C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90909C4A264616350062379C /* splitflap-stockapp */;
+			targetProxy = 90909C6D264616370062379C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90909C54264616350062379C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90909C55264616350062379C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90909C59264616370062379C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90909C5A264616370062379C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90909C73264616370062379C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90909C74264616370062379C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90909C76264616370062379C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8773GJ6J;
+				INFOPLIST_FILE = "splitflap-stockapp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SamuelHoffmann.IOSDev.splitflap-stockapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90909C77264616370062379C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8773GJ6J;
+				INFOPLIST_FILE = "splitflap-stockapp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SamuelHoffmann.IOSDev.splitflap-stockapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90909C79264616370062379C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8773GJ6J;
+				INFOPLIST_FILE = "splitflap-stockappTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SamuelHoffmann.IOSDev.splitflap-stockappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/splitflap-stockapp.app/splitflap-stockapp";
+			};
+			name = Debug;
+		};
+		90909C7A264616370062379C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8773GJ6J;
+				INFOPLIST_FILE = "splitflap-stockappTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SamuelHoffmann.IOSDev.splitflap-stockappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/splitflap-stockapp.app/splitflap-stockapp";
+			};
+			name = Release;
+		};
+		90909C7C264616370062379C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8773GJ6J;
+				INFOPLIST_FILE = "splitflap-stockappUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SamuelHoffmann.IOSDev.splitflap-stockappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "splitflap-stockapp";
+			};
+			name = Debug;
+		};
+		90909C7D264616370062379C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8773GJ6J;
+				INFOPLIST_FILE = "splitflap-stockappUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SamuelHoffmann.IOSDev.splitflap-stockappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "splitflap-stockapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90909C46264616350062379C /* Build configuration list for PBXProject "splitflap-stockapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90909C73264616370062379C /* Debug */,
+				90909C74264616370062379C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90909C75264616370062379C /* Build configuration list for PBXNativeTarget "splitflap-stockapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90909C76264616370062379C /* Debug */,
+				90909C77264616370062379C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90909C78264616370062379C /* Build configuration list for PBXNativeTarget "splitflap-stockappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90909C79264616370062379C /* Debug */,
+				90909C7A264616370062379C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90909C7B264616370062379C /* Build configuration list for PBXNativeTarget "splitflap-stockappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90909C7C264616370062379C /* Debug */,
+				90909C7D264616370062379C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90909C43264616350062379C /* Project object */;
+}
