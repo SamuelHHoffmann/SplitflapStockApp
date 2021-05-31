@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900537FB26461FCA00B96A0C /* FlapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900537C526461FCA00B96A0C /* FlapView.swift */; };
+		900537FC26461FCA00B96A0C /* SplitflapDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900537C626461FCA00B96A0C /* SplitflapDataSource.swift */; };
+		900537FD26461FCA00B96A0C /* SplitflapDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900537C726461FCA00B96A0C /* SplitflapDelegate.swift */; };
+		900537FE26461FCA00B96A0C /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900537C826461FCA00B96A0C /* TileView.swift */; };
+		900537FF26461FCA00B96A0C /* FlapViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900537C926461FCA00B96A0C /* FlapViewBuilder.swift */; };
+		9005380026461FCA00B96A0C /* Splitflap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900537CA26461FCA00B96A0C /* Splitflap.swift */; };
+		9005380126461FCA00B96A0C /* SplitflapTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900537CB26461FCA00B96A0C /* SplitflapTokens.swift */; };
+		9005380226461FCA00B96A0C /* TokenParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900537CC26461FCA00B96A0C /* TokenParser.swift */; };
+		9005380326461FCA00B96A0C /* TokenGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900537CD26461FCA00B96A0C /* TokenGenerator.swift */; };
+		9039F2F626482080002C8322 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9039F2F526482080002C8322 /* FooterView.swift */; };
+		9039F2F826482633002C8322 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9039F2F726482633002C8322 /* HeaderView.swift */; };
 		90909C4F264616350062379C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90909C4E264616350062379C /* AppDelegate.swift */; };
 		90909C51264616350062379C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90909C50264616350062379C /* SceneDelegate.swift */; };
 		90909C53264616350062379C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90909C52264616350062379C /* ViewController.swift */; };
@@ -15,6 +26,8 @@
 		90909C5B264616370062379C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90909C59264616370062379C /* LaunchScreen.storyboard */; };
 		90909C66264616370062379C /* splitflap_stockappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90909C65264616370062379C /* splitflap_stockappTests.swift */; };
 		90909C71264616370062379C /* splitflap_stockappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90909C70264616370062379C /* splitflap_stockappUITests.swift */; };
+		90F97B5B2646C3D300D45BD4 /* StockTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F97B5A2646C3D300D45BD4 /* StockTileView.swift */; };
+		90F97B5D2646C86200D45BD4 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F97B5C2646C86200D45BD4 /* Stock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		900537C526461FCA00B96A0C /* FlapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlapView.swift; sourceTree = "<group>"; };
+		900537C626461FCA00B96A0C /* SplitflapDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitflapDataSource.swift; sourceTree = "<group>"; };
+		900537C726461FCA00B96A0C /* SplitflapDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitflapDelegate.swift; sourceTree = "<group>"; };
+		900537C826461FCA00B96A0C /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		900537C926461FCA00B96A0C /* FlapViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlapViewBuilder.swift; sourceTree = "<group>"; };
+		900537CA26461FCA00B96A0C /* Splitflap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Splitflap.swift; sourceTree = "<group>"; };
+		900537CB26461FCA00B96A0C /* SplitflapTokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitflapTokens.swift; sourceTree = "<group>"; };
+		900537CC26461FCA00B96A0C /* TokenParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenParser.swift; sourceTree = "<group>"; };
+		900537CD26461FCA00B96A0C /* TokenGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenGenerator.swift; sourceTree = "<group>"; };
+		9039F2F526482080002C8322 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		9039F2F726482633002C8322 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		90909C4B264616350062379C /* splitflap-stockapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "splitflap-stockapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90909C4E264616350062379C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90909C50264616350062379C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +73,8 @@
 		90909C6C264616370062379C /* splitflap-stockappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "splitflap-stockappUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90909C70264616370062379C /* splitflap_stockappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splitflap_stockappUITests.swift; sourceTree = "<group>"; };
 		90909C72264616370062379C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F97B5A2646C3D300D45BD4 /* StockTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTileView.swift; sourceTree = "<group>"; };
+		90F97B5C2646C86200D45BD4 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +102,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		900537C426461FCA00B96A0C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				900537C526461FCA00B96A0C /* FlapView.swift */,
+				900537C626461FCA00B96A0C /* SplitflapDataSource.swift */,
+				900537C726461FCA00B96A0C /* SplitflapDelegate.swift */,
+				900537C826461FCA00B96A0C /* TileView.swift */,
+				900537C926461FCA00B96A0C /* FlapViewBuilder.swift */,
+				900537CA26461FCA00B96A0C /* Splitflap.swift */,
+				900537CB26461FCA00B96A0C /* SplitflapTokens.swift */,
+				900537CC26461FCA00B96A0C /* TokenParser.swift */,
+				900537CD26461FCA00B96A0C /* TokenGenerator.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		90909C42264616350062379C = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +141,14 @@
 		90909C4D264616350062379C /* splitflap-stockapp */ = {
 			isa = PBXGroup;
 			children = (
+				900537C426461FCA00B96A0C /* Sources */,
 				90909C4E264616350062379C /* AppDelegate.swift */,
 				90909C50264616350062379C /* SceneDelegate.swift */,
 				90909C52264616350062379C /* ViewController.swift */,
+				90F97B5A2646C3D300D45BD4 /* StockTileView.swift */,
+				9039F2F526482080002C8322 /* FooterView.swift */,
+				9039F2F726482633002C8322 /* HeaderView.swift */,
+				90F97B5C2646C86200D45BD4 /* Stock.swift */,
 				90909C54264616350062379C /* Main.storyboard */,
 				90909C57264616370062379C /* Assets.xcassets */,
 				90909C59264616370062379C /* LaunchScreen.storyboard */,
@@ -259,9 +306,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9005380026461FCA00B96A0C /* Splitflap.swift in Sources */,
 				90909C53264616350062379C /* ViewController.swift in Sources */,
 				90909C4F264616350062379C /* AppDelegate.swift in Sources */,
+				9039F2F626482080002C8322 /* FooterView.swift in Sources */,
+				900537FB26461FCA00B96A0C /* FlapView.swift in Sources */,
+				900537FC26461FCA00B96A0C /* SplitflapDataSource.swift in Sources */,
+				9005380326461FCA00B96A0C /* TokenGenerator.swift in Sources */,
+				9005380226461FCA00B96A0C /* TokenParser.swift in Sources */,
+				9005380126461FCA00B96A0C /* SplitflapTokens.swift in Sources */,
+				900537FD26461FCA00B96A0C /* SplitflapDelegate.swift in Sources */,
+				90F97B5B2646C3D300D45BD4 /* StockTileView.swift in Sources */,
+				90F97B5D2646C86200D45BD4 /* Stock.swift in Sources */,
 				90909C51264616350062379C /* SceneDelegate.swift in Sources */,
+				900537FE26461FCA00B96A0C /* TileView.swift in Sources */,
+				900537FF26461FCA00B96A0C /* FlapViewBuilder.swift in Sources */,
+				9039F2F826482633002C8322 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
